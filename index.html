@@ -20,13 +20,13 @@
 <main>
   <div class="left">
     <p class="descripcion-seo">
-    <strong>servicio tecnico de computadoras Colonia Tirolesa</strong> =reparacion,limpieza de computadora ,instalacion de sistema operativo, desbloqueo de notebooks,instalacion de perifericos  por <strong>Nicolas</strong>. 
+      <strong>servicio técnico de computadoras Colonia Tirolesa</strong> =reparación, limpieza de computadora, instalación de sistema operativo, desbloqueo de notebooks, instalación de periféricos por <strong>Nicolás</strong>.
     </p>
-    <img src="imagen_v1.webp" width="600" height="300" alt="Imagen principal" loading="eager">
+    <img src="imagen_v1.webp" width="600" height="343" alt="Servicio técnico de computadoras en Colonia Tirolesa" loading="eager" fetchpriority="high">
   </div>
   <div class="right">
     <hr class="separador">
-    <h1>servicios</h1>
+    <h1>Servicios</h1>
     <hr class="separador">
     <section class="servicios">
       <div class="servicio">
@@ -36,37 +36,24 @@
       </div>
       <div class="servicio">
         <i class="fas fa-lock-open"></i>
-        <h2>desbloqueo de notebooks</h2>
-        <p>quitar la dependencia de arranques o bloqueos</p>
+        <h2>Desbloqueo de notebooks</h2>
+        <p>Quitar la dependencia de arranques o bloqueos.</p>
       </div>
       <div class="servicio">
         <i class="fas fa-sync-alt"></i>
-        <h2>instalación de sistemas operativos</h2>
-        <p>Formateo completo y instalacion de sistemas operativos optimizados.</p>
+        <h2>Instalación de sistemas operativos</h2>
+        <p>Formateo completo e instalación de sistemas operativos optimizados.</p>
       </div>
     </section>
-    
-  
+
     <div class="mapa-ubicacion">
       <h2 class="titulo-ubicacion">📍 ¿Dónde estamos?</h2>
-      <iframe 
-        src="https://maps.google.com/maps?q=-31.145858473260564,-64.04186294838763&z=16&output=embed"
-        width="100%" 
-        height="300" 
-        style="border:0; border-radius: 15px; box-shadow: 0 0 10px rgba(0,255,255,0.2);" 
-        allowfullscreen="" 
-        loading="lazy">
-      </iframe>
+      <div id="mapa-placeholder" onclick="cargarMapa()" style="cursor:pointer;">
+        <img src="mapa-estatico_v1.webp" width="800" height="309" alt="Mapa estático de ubicación" style="border-radius: 15px; box-shadow: 0 0 10px rgba(0,255,255,0.2);">
+      </div>
     </div>
-    
+
   </div>
 </main>
-<a href="https://wa.me/59892831534?text=Hola,%20quiero%20contactarme%20contigo" 
-   target="_blank" 
-   aria-label="Contactar por WhatsApp"
-   class="whatsapp-float">
-   <i class="fab fa-whatsapp"></i>
-</a>
+<script src="script.js"></script>
 
-</body>
-</html>
